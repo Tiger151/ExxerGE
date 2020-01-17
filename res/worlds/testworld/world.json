@@ -1,0 +1,32 @@
+{
+  "map": {
+    "xdimen": "42",
+    "ydimen": "27",
+    "title": "testworld"
+  },
+  "mobs": {
+    "player": {
+      "xstart": "12",
+      "ystart": "7"
+    },
+    "blackballer_test": {
+      "xstart": "12",
+      "ystart": "7"
+    }
+  },
+  "triggers": {
+    "stop_test": {
+      "x": "12",
+      "y": "12",
+      "type": "move",
+      "event": "stopper"
+    }
+  },
+  "events": {
+    "stopper": {
+      "text": "You have been stopped",
+      "battle": {},
+      "teleport": {}
+    }
+  }
+}
