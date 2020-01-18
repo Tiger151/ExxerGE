@@ -17,7 +17,7 @@ public class Game implements Runnable{
 	private Display display;
 	private int width, height;
 	public String title;
-	private Thread thread;//, graphicsThread;
+	private Thread thread;
 	//private GraphicsEngine ge;
 	private boolean running = false;
 	

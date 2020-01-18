@@ -22,6 +22,10 @@ public class Date{
 		case 0: System.out.println("First date filler");
 			
 		}*/
+//Catch end of date file
+		if(getDateEvent(day).equalsIgnoreCase("END")) {
+			return;
+		}
 		
 //Trigger new date counter / resume from paused
 		if(startTime == 0L) {
@@ -44,7 +48,6 @@ public class Date{
 			elapsedTime = 0;
 			startTime = 0L;
 		}
-		
 		
 		
 		

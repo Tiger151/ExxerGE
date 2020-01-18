@@ -39,6 +39,7 @@ public class TimeBar extends GUI{
 		g.drawLine(startX + (int) (guiWidth * 0.79), startY, startX + (int) (guiWidth * 0.79), handler.getHeight());
 	}
 	public void update(){
+		
 		date.update();
 	}
 }
